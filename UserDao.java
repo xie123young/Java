@@ -22,5 +22,9 @@ public interface UserDao {
 
     @Delete("delete from users where id=#{id}")
     public void deleteUsersById(Long id);
+    
+    public void OneGit(){
+    system.out.println("oneGit");
+    }
 
 }
